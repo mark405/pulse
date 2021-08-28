@@ -61,6 +61,21 @@
             }
         }
     }
+    .consultation {
+        .main-header_left {
+            text-align: center;
+        }
+        &__descr {
+            margin: 0 auto;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 30px auto 0px auto;
+        }
+        .button_submit {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -95,5 +110,11 @@
     }
     .main-header {
         font-size: 26px;
+    }
+    .consultation {
+        .button_submit {
+            width: 250px;
+            margin: 0 auto;
+        }
     }
 }
