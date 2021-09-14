@@ -76,6 +76,15 @@
             width: 100%;
         }
     }
+    .carousel {
+        &__inner {
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -109,12 +118,21 @@
         }
     }
     .main-header {
-        font-size: 26px;
+        font-size: 23px;
     }
     .consultation {
         .button_submit {
             width: 250px;
             margin: 0 auto;
+        }
+    }
+    .catalog {
+        &__tabs {
+            display: flex;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 20px;
         }
     }
 }
